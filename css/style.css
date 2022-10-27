@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color:black;
+}
+header{
+    background-color: #ffffff;
+    padding: 2rem
+}
+.container{
+    padding: 0 4rem;
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+nav a{
+    margin-right: 20px
+}
+.header-all .shop a{
+    margin-left: 20px
+}
+.header-all .shop i{
+    margin-left: 20px;
+}
+.header-all .logo a{
+    font-size: 40px;
+}
+.slider{
+    background-color: #f3f3f3;
+    padding: 3rem 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+.photo{
+    height: 585px;
+}
+
